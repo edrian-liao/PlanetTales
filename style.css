@@ -60,3 +60,46 @@
     flex-basis: 100%;
     justify-content: center;
 }
+
+/* Image Gallery with Navigator */
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .image {
+    flex: 0 0 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navigator {
+    display: flex;
+    z-index: 1;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 55px;
+    padding: 10px;
+    background-color: rgba(255,255,255, 0.4);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    gap: 5px;
+  }
+  
+  .nav-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ddd;
+    cursor: pointer;
+    
+  }
