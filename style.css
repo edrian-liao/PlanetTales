@@ -1,0 +1,62 @@
+/* Custom Fonts */
+@font-face {
+    font-family: Didot Regular;
+    src: url('Fonts/Didot-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto Medium;
+    src: url('Fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: Roboto Regular;
+    src: url('Fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto Thin;
+    src: url('Fonts/Roboto-Thin.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.header{
+    width: fill;
+    height: 55px;
+    display: flex;
+    padding: 15px 30px 0px 30px;
+    align-items: center;
+}
+
+.header .split-color-heading {
+    color: #8AFFCF;
+    font-family: 'Didot Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    flex-basis: 15%;
+}
+
+.header .second-color {
+    color: #FFF;
+}
+
+.categories {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 42px;
+    color: #FFFFFF;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    flex-basis: 100%;
+    justify-content: center;
+}
