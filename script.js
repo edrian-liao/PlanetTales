@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slideshow = document.getElementById('slideshow');
-  const images = ['media/poster1.jpg', 'media/poster2.jpg', 'media/poster3.jpg']; // Add your image filenames
+  const images = ['Media/poster1.jpg', 'Media/poster2.jpg', 'Media/poster3.jpg']; // Add your image filenames
   let currentIndex = 0;
 
   function changeImage() {
