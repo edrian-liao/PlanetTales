@@ -72,7 +72,7 @@
     margin: 0px auto 0;
     padding: 0;
     font-family: Noto Sans;
-    font-size: 20px;
+    font-size: 18px;
     width: 60%;
 }
 
@@ -93,8 +93,9 @@
 
 .text-container h1 {
     font-family: 'Didot Regular';
-    margin: 10px;
-    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #8AFFCF;
 }
   
 .block img {
@@ -102,6 +103,48 @@
     height: auto;
     object-fit: contain; /* Fill the container while maintaining aspect ratio */
     
+}
+
+#data-image {
+    width: 50%;
+}
+
+video {
+    width: 100%; /* Set the video's width to 100% of its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.big-caption {
+    font-family: 'Didot Regular';
+    font-size: 25px;
+    color: #8AFFCF;
+    text-align: center;
+    padding: 10px;
+}
+
+strong {
+    color: #8AFFCF;
+}
+
+/* Style for the footer */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    width: 100%;
+    font-family: Noto Sans;
+}
+
+
+/* Style for social links */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px; /* Add spacing between social icons */
+    text-decoration: none;
+    color: #8AFFCF;
 }
 
 @media (max-width: 1100px) {
