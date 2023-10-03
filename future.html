@@ -16,54 +16,56 @@
         <h1 class="split-color-heading">
             Planet. <span class="second-color">Tales</span>
         </h1>
+        <!-- Hamburger icon button for small screens -->
+        <div class="hamburger" id="hamburgerIcon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Navigation panel -->
+        <nav id="navPanel">
+            <ul>
+                <li><a href="https://www.edliao.com/">About</a></li>
+                <li><a href="index.html">Motivation</a></li>
+                <li><a href="typhoons.html">Typhoons</a></li>
+                <li><a href="agri.html">Agriculture</a></li>
+                <li><a href="educ.html">Education</a></li>
+                <li><a href="future.html">What now?</a></li>
+            </ul>
+        </nav>
         <div class = "categories">
             <h3><a href="https://www.edliao.com/">About</a></h3>
             <h3><a href="index.html">Motivation</a></h3>
             <h3><a href="typhoons.html">Typhoons</a></h3>
             <h3><a href="agri.html">Agriculture</a></h3>
             <h3><a href="educ.html">Education</a></h3>
-            <h3><a href="future">What now?</a></h3>
+            <h3><a href="future.html">What now?</a></h3>
         </div>
     </div>
 
     <div class="poster">
-        <img src="Media/typhoon-poster.png" alt="Map of the Philippines">
+        <img src="Media/whatnow-poster.jpg">
     </div>
 
     <div class = "content">
         <div class = "block">
-            <div class = "text-container"><h1>Agricultural damages</h1></div>
+            <div class = "text-container"><h1>What can we do?</h1></div>
             <div class = "text-container">
-                The Philippines, situated in Southeast Asia, is classified as a developing nation. It experiences an average of 20 tropical cyclones annually. For those interested, this is a glimpse of what the aftermath of a typhoon typically appears like in our country.
-            </div>
-            <video controls>
-                <source src="Media/typhoon_ullyses.mp4" type="video/mp4">
-            </video>
-            <div class = "text-container">
-                In the wake of these disasters, roads are often rendered impassable due to flooding. People find themselves on rooftops, desperately calling for assistance while avoiding the waters to steer clear of the risk of electrocution. Bridges and other vital infrastructures 
-                collapse, leading to food shortages and weeks of power outages. Despite the immense challenges, Filipinos take pride in their resilience, but the line between being resilient and asking for help has been smeared by the <strong>lack of resources and stable systems</strong>.
+                Every decision we make may affect a group of people 10,000 miles away from us. We may be experiencing the same global environmental issue, but we do not have the same systems in place to mitigate and adapt to these changes. 
+                The worse part is that none of the locals I interviewed is aware of climate change’s role in their struggles. 
             </div>
             <div class = "text-container">
-                The warming of the oceans have strengthened the typhoons in the Southwest Pacific. Based on the SPEARTC dataset <a href="https://github.com/edrian-liao/PlanetTales/blob/main/data/speartc_analysis.ipynb"> (see code on my GitHub profile)</a> 
-                from the Asia-Pacific Data Research Center, the mean wind speeds of tropical cyclones in the Philippines have increased by <strong>8 mph</strong> over the last 60 years.
+                Help me spread these stories, so people who have the means to initiate change can hear these voices.​
             </div>
-            <img src="Media/mean_wind_speeds.png" alt="A graph generated in Python depicting the strengthening of the tropical cyclones in the Philippines">
-            <div class = "text-container">
-                The Philippine Atmospheric, Geophysical, and Astronomical Services administration or PAGASA is our national weather service that is mandated by the governement to protect the country's resources from natural 
-                calamities. According to their long-term report, there has been an upward trend on the number of tropical cyclones visiting the Philippines. 
-            </div>
-            <img src="Media/num_trop_cyclones.png" alt="A graph showing the increase in the number of tropical cyclones that visit the Philippines">
-            <div class = "text-container">
-                While I was back home, I had the firsthand experience of witnessing the devastation caused by Super Typhoon Egay, which made landfall in our region. With wind speeds reaching up to 140 mph, Egay left behind an estimated <strong>$123.6 million</strong> worth of 
-                damage. What struck me the most was the resilience of my family and neighbors during the typhoon's arrival; there was no sign of fear.
-            </div>
-            <video controls>
-                <source src="Media/egay.mp4" type="video/mp4">
-            </video>
-            <div class = "text-container">
-                However, the mood shifted dramatically the following morning when they discovered the extent of the damage to 
-                their rice and corn fields.
-            </div>
+            <button id="copyButton">Share Website</button>
+            <div id="copyNotification" class="hidden">Link copied to clipboard!</div>
+            <div class="text-container"></div>
+            <a href = "https://www.instagram.com/limit.dnex/"><button>Instagram</button></a>
+            <p id="textToCopy">https://planet-tales.org/</p>
+
+    <!-- Optional feedback message -->
+    <div id="copyMessage"></div>
         </div>
     </div>
 
