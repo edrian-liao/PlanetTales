@@ -4,6 +4,10 @@
     src: url('Fonts/Didot-Regular.ttf');
 }
 @font-face {
+    font-family: DIN Next;
+    src: url('Fonts/DINNextW1G-Regular.otf');
+}
+@font-face {
     font-family: Roboto Medium;
     src: url('Fonts/Roboto-Medium.ttf');
 }
@@ -64,7 +68,7 @@
     align-items: flex-start;
     gap: 42px;
     color: white;
-    font-family: 'Didot Regular';
+    font-family: 'DIN Next';
     font-size: 16px;
     line-height: normal;
     flex-basis: 100%;
@@ -87,8 +91,8 @@
 .content {
     margin: 0px auto 0;
     padding: 0;
-    font-family: Noto Sans;
-    font-size: 18px;
+    font-family: 'DIN Next';
+    font-size: 22px;
     width: 60%;
 }
 
@@ -104,6 +108,7 @@
     padding: 20px; /* Add some padding for spacing */
     align-items: center;
     color: white;
+    line-height: 1.5;
 }
 
 .text-container h1 {
@@ -147,7 +152,7 @@ footer {
     text-align: center;
     padding: 40px 0;
     width: 100%;
-    font-family: Noto Sans;
+    font-family: DIN Next;
 }
 
 
@@ -165,6 +170,7 @@ footer {
 @media (min-width: 2000px) {
     .content {
         width: 45%;
+        font-size: 25px;
     }
 }
 @media (max-width: 1100px) {
@@ -187,7 +193,7 @@ footer {
     }
 
     .text-container {
-        font-size: 16px;
+        font-size: 19px;
     }
 }
 
@@ -198,7 +204,7 @@ footer {
     }
 
     .text-container {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .content {
