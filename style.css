@@ -39,6 +39,16 @@
     margin: 6px 0;
 }
 
+.caption {
+    font-style: italic;
+    color: white;
+    font-family: DIN Next;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* CSS for the navigation panel */
 #navPanel {
     width: 200px;
